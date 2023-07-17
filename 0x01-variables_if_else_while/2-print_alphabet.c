@@ -1,19 +1,18 @@
 #include <stdio.h>
 
-  /**
-  * main - Entry point
-  *
-  * Return: Always 0 (success)
-  */
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (success)
+ */
+int main(void)
+{
+	char alpha;
 
- int main(void)
- {
-	 char alpha;
-	 
-	 for (alpha = 'a'; alpha <= 'z'; alpha++)
-	 {
-		 putchar(alpha);
-	 }
-	 putchar('\n');
-	 return (0);
- }
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	{
+		putchar(alpha);
+	}
+	putchar('\n');
+	return (0);
+}
